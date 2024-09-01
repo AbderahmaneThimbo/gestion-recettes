@@ -21,7 +21,7 @@ Cette application permet aux utilisateurs de gérer leurs recettes de cuisine de
 Clonez le projet et installez les dépendances :
 
 ```bash
-git clone https://github.com/votre-utilisateur/gestion-recettes.git
+git clone https://github.com/AbderahmaneThimbo/gestion-recettes.git
 cd gestion-recettes
 npm install
 ```
