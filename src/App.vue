@@ -7,7 +7,7 @@ import { RouterLink, RouterView } from "vue-router";
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
         <RouterLink class="nav-link" to="/">
-          <img src="./assets/img.png" alt="Logo de l'application"/>
+          <img src="./assets/img.jpg" alt="Logo de l'application"/>
         </RouterLink>
 
         <button
