@@ -1,29 +1,33 @@
-# gestion-recettes
+# Application de Gestion de Recettes
 
-This template should help get you started developing with Vue 3 in Vite.
+Cette application permet aux utilisateurs de gérer leurs recettes de cuisine de manière simple et intuitive.
 
-## Recommended IDE Setup
+## Fonctionnalités
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Ajout de recettes** : Ajouter de nouvelles recettes.
+- **Modification de recettes** : Modifier les recettes existantes.
+- **Suppression de recettes** : Supprimer les recettes.
+- **Affichage de la liste des recettes** : Visualiser toutes les recettes disponibles.
 
-## Customize configuration
+## Prérequis
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Node.js
+- Vue.js 3
+- Pinia
+- Bootstrap
 
-## Project Setup
+## Installation
 
-```sh
+Clonez le projet et installez les dépendances :
+
+```bash
+git clone https://github.com/votre-utilisateur/gestion-recettes.git
+cd gestion-recettes
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Démarrer le projet
 
-```sh
+```bash
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
