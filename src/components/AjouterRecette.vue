@@ -31,8 +31,9 @@
             <option value="Dessert">Dessert</option>
           </select>
         </div>
-        <RouterLink type="submit" class="btn btn-primary w-25" to="/liste">Enregistrer
-        </RouterLink> 
+        <!-- <RouterLink type="submit" class="btn btn-primary w-25" to="/liste">Enregistrer
+        </RouterLink>  -->
+        <button type="submit" class="btn btn-primary w-25">Enregistrer</button>
       </form>
     </div>
   </template>
@@ -40,7 +41,7 @@
   <script setup>
   import { ref } from "vue";
   import { useRecetteStore } from "@/stores/recette";
-  
+
   const store = useRecetteStore();
   
   const nouvelleRecette = ref({

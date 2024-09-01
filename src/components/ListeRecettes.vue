@@ -2,7 +2,7 @@
     <div class="container mt-5">
       <h2 class="text-center mb-4">Liste des Recettes</h2>
       <table class="table table-hover">
-        <thead class="table-blue">
+        <thead class="table-success">
           <tr>
             <th>Titre</th>
             <th>Type</th>
@@ -45,7 +45,6 @@
         Ajouter une Recette
       </RouterLink>
   
-      <!-- Modal pour afficher les détails de la recette -->
       <div
         class="modal fade"
         id="voirRecetteModal"
